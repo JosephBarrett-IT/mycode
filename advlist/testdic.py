@@ -20,4 +20,5 @@ char_name = input('Which character do you want to know more about? Startlord, My
 
 char_stat = input('What statistic do you want to know about? real name, powers, archenemy')
 
-print(f" {char_name}'s {char_start} is: {marvelchars[{char_name}}]" )
+#print(f" {char_name}'s {char_stat} is: {marvelchars[{char_name}][{char_stat}]}")
+print(f"{char_name}'s {char_stat} is: {marvelchars[char_name][char_stat]}")
